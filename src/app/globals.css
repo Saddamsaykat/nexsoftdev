@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+.container{
+  max-width: 1170px;
+  margin: auto
+}
+
+.text-primary{
+  color: aqua;
+}
+
+.bg-primary{
+  background-color: aqua;
+}
