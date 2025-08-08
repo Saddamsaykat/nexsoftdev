@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 import ReduxProvider from "@/redux/lib/providers";
+import Header from "@/components/header/Header";
 
 export const metadata: Metadata = {
   title: "Welcome to Next Software Development",
@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <ReduxProvider>
-          <Header />
+          <Header theme="light" />
           {children}
           <Footer />
         </ReduxProvider>
